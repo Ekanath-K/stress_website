@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Stress Assessment</h1>
+  <p>Information about Stress</p>
+</div>
+
+<div class="navbar">
+  <a href="https://google.com">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" class="right">Link</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Stress</h2>
+    <h3>What is Stress?</h3>
+    <p>Definition of stress:
+Stress can be defined as a state of worry or mental tension caused by a difficult situation. Stress is a natural human response that prompts us to address challenges and threats in our lives. Stress is a feeling of emotional or physical tension. It can come from any event or thought that makes you feel frustrated, angry, or nervous. Stress is your body's reaction to a challenge or demand. In short bursts, stress can be positive, such as when it helps you avoid danger or meet a deadline. But when stress lasts for a long time, it may harm your health.
+</p>
+    <h3>Things that Cause Stress</h3>
+    <p>
+Feel under lots of pressure
+Face big changes in your life
+Are worried about something
+Don't have much or any control over the outcome of a situation
+Have responsibilities that you find overwhelming
+Don't have enough work, activities or change in your life
+Experience discrimination, hate or abuse
+<h3> Ways the body responds in a stressful situation:</h3>
+<ul class="a">
+  <li>Headaches</li>
+  <li>Nausea</li>
+  <li>Digestive problems such as constipation, bloating or diarrhea</li>
+  <li>Shallow breathing or hyperventilating</li>
+  <li>Sweating </li>
+  <li>Heart palpitations</li>
+  <li>Aches and pains</li>
+</ul>
+
+<h3> Early warning signs of stress: </h3>
+
+<ul class="b">
+  <li>Eating or sleeping too much or too little</li>
+  <li>Anger, feeling edgy or lashing out at others</li>
+  <li>Pulling away from people and things</li>
+  <li>Not connecting with others</li>
+  <li>Lack of energy or always feeling tired</li>
+  <li>Having unexplained aches and pains, such as constant stomach aches or headaches</li>
+  <li>Feeling helpless or hopeless</li>
+  <li>Excessive smoking, drinking, or using drugs, including prescription medications</li>
+  <li>Worrying a lot of the time; feeling guilty but not sure why</li>
+  <li>Thinking of hurting or killing yourself or someone else</li>
+</ul>
+
+<h3>Healthy ways to handle stress:</h3>
+
+<ul class="c">
+  <li>Get a good amount of exercise</li>
+  <li>Have a good diet and try to limit substance use</li>
+  <li>Connect with people</li>
+  <li>Try to find a good hobby</li>
+  <li>Practice Meditation, Yoga, or stress reduction</li>
+  <li>Deep breathing</li>
+  <li>Imagery/visualization</li>
+  <li>Get a good amount of sleep</li>
+  <li>Take a break/vacation </li>
+  <li>See a counselor, coach or therapist</li>
+</ul>
+
+
+
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
